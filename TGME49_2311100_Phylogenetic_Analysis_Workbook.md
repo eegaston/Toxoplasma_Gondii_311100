@@ -30,8 +30,11 @@ TGME49_311100 is serving not only as our protein of interest, but as our referen
      
 # BLAST Analysis
   
-Once the reference sequence was downloaded, a BLASTP analysis of the protein was conducted. BLASTP was utilized due to its ability to "compares an amino acid query sequence [our predictive protein sequence] against a protein sequence dataset" (Balakrishna et al. 2005). 
-
+Once the reference sequence was downloaded, a BLASTP analysis of the protein was conducted. BLASTP was utilized due to its ability to "compares an amino acid query sequence [our predictive protein sequence] against a protein sequence dataset" (Balakrishna et al. 2005). This analysis was run utilizing NCBI's BLASTP program
+               Citation for why for above
+               
+               
+To determine the validity of the results a secondary BLASTP Analysis was conducted in VEuPathDB.
 
 # Multiple Sequence Alignment
 
