@@ -2,6 +2,18 @@
 
 This workbook documents the methodology and programs utilized to examine the phylogenetic relationships of TGME49_311100 among other Apicomplexan (and non-Apicomplexan) taxa. These analyses were preformed to examine the potential conservation of function among homologous protein sequences.
 
+# Materials
+
+ * Hardware: PC laptop 
+ * Operating System: Windows 11 Home
+ * Programs Utilized:
+       * BLAST
+       * MAFFT (version 7)
+       * MEGAX
+ * Databases Utilized: 
+       *  ToxoDB (https://toxodb.org/toxo/app)
+       *  NCBI
+       
 # Summary of Methods
       
       1. Obtain the protein sequence of TGME49_311100
