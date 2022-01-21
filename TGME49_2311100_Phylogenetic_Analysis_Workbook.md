@@ -7,12 +7,12 @@ This workbook documents the methodology and programs utilized to examine the phy
  * Hardware: PC laptop 
  * Operating System: Windows 11 Home
  * Programs Utilized:
-       * BLAST
-       * MAFFT (version 7)
-       * MEGAX
+      * BLAST
+      * MAFFT (version 7)
+      * MEGAX
  * Databases Utilized: 
-       *  ToxoDB (https://toxodb.org/toxo/app)
-       *  NCBI
+      * ToxoDB (https://toxodb.org/toxo/app)
+      * NCBI
        
 # Summary of Methods
       
