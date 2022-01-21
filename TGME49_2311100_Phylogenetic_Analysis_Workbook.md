@@ -12,7 +12,7 @@ This workbook documents the methodology and programs utilized to examine the phy
       * MEGAX
  * Databases Utilized: 
       * ToxoDB (https://toxodb.org/toxo/app)
-      * NCBI
+      * NCBI (https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastp&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome)
        
 # Summary of Methods
       
@@ -23,11 +23,15 @@ This workbook documents the methodology and programs utilized to examine the phy
 
 # Downloading TGME49_311100
 
-TGME49_311100 is serving not only as our protein of interest, but as our reference strain for the following analyses. TGME49_311100 predictive protein sequence was obtained from ToxoDB (https://toxodb.org/toxo/app/record/gene/TGME49_311100). The gene was downloaded in FASTA format.
+TGME49_311100 is serving not only as our protein of interest, but as our reference strain for the following analyses. TGME49_311100 predictive protein sequence was obtained from ToxoDB (VEuPathDB (n.d.)). The gene was then downloaded in FASTA format, as shown below:
+
+               >TGME49_311100  | Toxoplasma gondii ME49 | zinc finger (CCCH type) motif-containing protein | protein | length=920
+                     MEGAAGTPCIDGSEEVSEKEWEDDETGRHSSGTGTCFTTSSHTGGNGARADEALDGRVDMGCRELKRRPRLKRMKLQFYKTKMCPWMAQGRCLRGLSCQYAHSECELSPLPNLLKTRMCEMLTLTGSCPRLASECKFAHTAEELRSTEFFARSKMCPLFLSGRCTANEKCRYAHSAQELRKASVASALFLQKHPSRQLQTNTGVVGKGMGNLVCVTGTHDTMLVKKKEENVSESGVSVPPSSSTSARDFLSGDAHPKLTLRYSSGKQEIPPPRFSRRPYNGVPLQRRLMPSVFLCASSGGDSLRRLSCSELGGGSQSLPASPKECATQGTPGSMSGGGGQVHGVARFYPVPQPPPPELRVALFQTATGSGSSPSKKCDQKPQVNSGVHSQEDGARSHIGDRLPKYQDRRGRKGSVWSLSGRGTSCSSSRTSVSSLGLSKEGFRSQMETLAPHAEGHGYQRRTWDRQDGPSKISEVAMPVRSEGSFSETSADTAGSELQSDMTVDALGTKNGSAGSQAGSDERQEEQAPSPASSWATRLPASEGRNFESTDLLACASHTTGLKSEMPRSEGEALPGSTKSNQEQDSASSRQEDERAHQTALADGVTSQRQWRSFSARSRNRGASTPSSQLPWLAQEKSRRPHGLNSEGRAPVAPIRRPAQGEHTGPCRPTAGFPTHGTKRNSSSSRIAAGANAQNNVRQLHQRSVLSAFVRPVFSSLAELPARQGPAWNFVHTGGYAAASTPTTWPFSYEGIPSTQLYPCEQSVPSFPYVPDSRLASPDSCMSRTSFSPQSSGSTVATPHGMPSAPYPSAGGSLLMTCQNRVGNGEVAEQRLAQPSVQTESTLRPASRVILYGSPVDQAACYAGNCGVEAAFSAEIDRQRQLLFLPQSTLGQSMQPLHPEVLLPKLSAEVLKASEPDRYED
      
 # BLAST Analysis
   
-Once the reference sequence was downloaded, a BLAST analysis of the gene was conducted.
+Once the reference sequence was downloaded, a BLASTP analysis of the protein was conducted. BLASTP was utilized due to its ability to "compares an amino acid query sequence [our predictive protein sequence] against a protein sequence dataset" (Balakrishna et al. 2005). 
+
 
 # Multiple Sequence Alignment
 
@@ -36,3 +40,8 @@ Once the reference sequence was downloaded, a BLAST analysis of the gene was con
 
 
 # Creating a Predictive Protein Model for TGME49_311100 utilizing ChimeraX Software
+
+# References
+Balakrishnan, R., Christie, K. R., Costanzo, M. C., Dolinski, K., Dwight, S. S., Engel, S. R., Fisk, D. G., Hirschman, J. E., Hong, E. L., Nash, R., Oughtred, R., Skrzypek, M., Theesfeld, C. L., Binkley, G., Dong, Q., Lane, C., Sethuraman, A., Weng, S., Botstein, D., & Cherry, J. M. (2005). Fungal BLAST and Model Organism BLASTP Best Hits: new comparison resources at the Saccharomyces Genome Database (SGD). Nucleic acids research, 33(Database issue), D374–D377. https://doi.org/10.1093/nar/gki023
+
+VEuPathDB. (n.d.).  TGME49_311100 zinc finger (CCCH type) motif-containing protein . ToxoDB. Retrieved January 21, 2022, from https://toxodb.org/toxo/app/record/gene/TGME49_311100 
