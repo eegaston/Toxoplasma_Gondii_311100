@@ -12,8 +12,7 @@ This workbook documents the methodology and programs utilized to examine the phy
       * MEGAX
  * Databases Utilized: 
       * ToxoDB (https://toxodb.org/toxo/app)
-      * NCBI (https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastp&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome)
-       
+      * VEuPathDB (https://veupathdb.org/veupathdb/app/)
 # Summary of Methods
       
       1. Obtain the protein sequence of TGME49_311100
@@ -32,6 +31,14 @@ TGME49_311100 is serving not only as our protein of interest, but as our referen
   
 Once the reference sequence was downloaded, a BLASTP analysis of the predictive protein sequence was conducted. BLASTP was utilized due to its ability to "compares an amino acid query sequence [our predictive protein sequence] against a protein sequence dataset" (Balakrishna et al. 2005). This analysis was conducted utilizing the BLASTP program on VEuPathDB (https://veupathdb.org/veupathdb/app/).This program was chosen due its large and established database of eukaryotic pathogens (i.e. parasites) and vectors, as well as its prevalence in prior bioinformatic analyses of T.gondii's genome (Amos et al.2022; Waldman et al. 2020).
 
+The query in VEupathDB was ran under the following conditions:
+* Target type: Proteins
+* Target organisms : All accepted ( for this database specifically,  eukaryotic pathogens and vectors are).
+* E-value : 20
+* Maximum Description: 300
+* Low-Complexity Filter: Yes
+
+To narrow down results generated from the BLAST analysis, sequences with a E-value above E-20 were discarded. Duplicate gene sequences among the same genus, but different species (or subspecies) were also exclude (the gene sequence with the lowest E value was kept). 
 
 
 # VEuPathDB BLASTP ANALYSIS
