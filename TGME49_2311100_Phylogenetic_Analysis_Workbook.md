@@ -41,6 +41,8 @@ The query in VEupathDB was ran under the following conditions:
 To narrow down results generated from the BLAST analysis, sequences with a E-value above E-20 were discarded. Duplicate gene sequences among the same genus, but different species (or subspecies) were also exclude (the gene sequence with the lowest E value was kept). 
 
 Summary of BLAST Hits:
+
+
                1.	>TGRH88_050610 Toxoplasma gondii RH-88 zinc finger (CCCH type) motif-containing protein; E-value = 0
                2.	>HHA_311100 Hammondia hammondi strain H.H.34 zinc finger (CCCH type) motif-containing protein; E-value = 0
                3.	>NCLIV_055080 Neospora caninum Liverpool putative zinc finger (CCCH type) protein; E-value = 0
