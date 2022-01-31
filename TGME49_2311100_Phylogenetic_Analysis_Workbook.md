@@ -228,13 +228,9 @@ Summary of BLAST Hits:
                183.	>GY17_00000134 Cryptosporidium hominis isolate 30976 Uncharacterized protein with CCCH-type Zinc finger; E-value = 9E -20
                184.	>CMU_008650 Cryptosporidium muris RN66 zinc finger, CCCH type domain-containing protein; E-value = 8E -20
 
+# Creation of Phylogenomic Trees utilizing MEGA11
 
-# VEuPathDB BLASTP ANALYSIS
-
-# Multiple Sequence Alignment
-
-# Creation of Phylogenomic Trees
-
+After all of the BLAST files were downloaded and formated into a txt file, a multiple sequence alignment (MSA) was performed in the Molecular Evolutionary Genetic Analysis (MEGA) program. MEGA is a computure software which contains specialized tools to assist in bioinformatic analyses, including MUSCLE a well-known MSA program(Tamura et al 2021; edgar 2004). MUSCLE was then utilized to align our fasta files. 
 
 
 # Creating a Predictive Protein Model for TGME49_311100 utilizing ChimeraX Software
@@ -247,6 +243,10 @@ Summary of BLAST Hits:
 Amos, B., Aurrecoechea, C., Barba, M., Barreto, A., Basenko, E. Y., Bażant, W., Belnap, R., Blevins, A. S., Böhme, U., Brestelli, J., Brunk, B. P., Caddick, M., Callan, D., Campbell, L., Christensen, M. B., Christophides, G. K., Crouch, K., Davis, K., DeBarry, J., Doherty, R., … Zheng, J. (2022). VEuPathDB: the eukaryotic pathogen, vector and host bioinformatics resource center. Nucleic acids research, 50(D1), D898–D911. https://doi.org/10.1093/nar/gkab929
 
 Balakrishnan, R., Christie, K. R., Costanzo, M. C., Dolinski, K., Dwight, S. S., Engel, S. R., Fisk, D. G., Hirschman, J. E., Hong, E. L., Nash, R., Oughtred, R., Skrzypek, M., Theesfeld, C. L., Binkley, G., Dong, Q., Lane, C., Sethuraman, A., Weng, S., Botstein, D., & Cherry, J. M. (2005). Fungal BLAST and Model Organism BLASTP Best Hits: new comparison resources at the Saccharomyces Genome Database (SGD). Nucleic acids research, 33(Database issue), D374–D377. https://doi.org/10.1093/nar/gki023
+
+Edgar R. C. (2004). MUSCLE: multiple sequence alignment with high accuracy and high throughput. Nucleic acids research, 32(5), 1792–1797. https://doi.org/10.1093/nar/gkh340
+
+Tamura, K., Stecher, G., & Kumar, S. (2021). MEGA11: Molecular Evolutionary Genetics Analysis Version 11. Molecular biology and evolution, 38(7), 3022–3027. https://doi.org/10.1093/molbev/msab120
 
 Waldman, B. S., Schwarz, D., Wadsworth, M. H., 2nd, Saeij, J. P., Shalek, A. K., & Lourido, S. (2020). Identification of a Master Regulator of Differentiation in Toxoplasma. Cell, 180(2), 359–372.e16. https://doi.org/10.1016/j.cell.2019.12.013
 
